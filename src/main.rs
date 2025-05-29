@@ -119,8 +119,8 @@ fn write_height_file(file_path: &str, min_height: f32, max_height: f32) -> io::R
 }
 
 fn main() {
-    let input_path = "result2.asc";
-    let output_path = "model2.obj";
+    let input_path = "result.asc";
+    let output_path = "model.obj";
     let height_path = "height.txt";
 
     match read_asc_file(input_path) {
